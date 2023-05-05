@@ -197,6 +197,8 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header-container {
