@@ -209,7 +209,6 @@ body {
     display: flex;
     column-gap: 76px;
     align-items: center;
-    
 }
 
 .logo {
@@ -221,8 +220,8 @@ body {
     gap: 40px;
 }
 
-.menu-item {
-    padding: 24px 0;
+.link-wrapping {
+    padding: 24px 0 24px;
 }
 
 .contact-menu {
