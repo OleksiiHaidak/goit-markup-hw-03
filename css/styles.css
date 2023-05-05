@@ -209,17 +209,17 @@ body {
     display: flex;
     column-gap: 76px;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .logo {
     margin-right: 76px;
 }
 
-
 .menu {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-menu {
