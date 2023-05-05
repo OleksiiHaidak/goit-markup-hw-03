@@ -8,13 +8,7 @@
     --accent-light-color: #F4F4FD;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -50,6 +44,8 @@ body {
         background-color: var(--main-white-color);
 }
 
+/* ===============COMPONENTS========================== */
+
 .contact-menu-link,
 .section-item-description,
 .contacts {
@@ -59,11 +55,11 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+        display: flex;
+        align-items: center;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--accent-blue-color);
@@ -161,10 +157,10 @@ body {
 
 .section-item-title {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--accent-dark-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-dark-color);
 }
 
 .contact-menu-link,
@@ -182,3 +178,186 @@ body {
     color: var(--accent-light-color);
 }
 
+/* ===============/COMPONENTS========================== */
+
+
+
+
+/* ===============/HEADER AND FOOTER========================== */
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-nav {
+    display: flex;
+    column-gap: 76px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.page-footer {
+    height: 312px;
+}
+
+.footer-title {
+    width: 264px;
+}
+
+.footer-logo {
+    padding-bottom: 16px;
+    padding-top: 100px;
+}
+
+/* ===============/MAIN PAGE========================== */
+
+.hero {
+    height: 600px;
+    text-align: center;
+}
+
+.hero-title {
+    width: 496px;
+    padding-top: 188px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hero-button {
+    min-width: 169px;
+    padding: 16px 32px;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.our-way-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-items {
+    column-gap: 24px;
+    width: 264px;
+}
+
+.container-title-what-are-we-doing {
+    padding-bottom: 72px;
+}
+
+.container-what-are-we-doing {
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 120px;
+}
+
+.container-title-our-team {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+.list-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+    gap: 24px;
+}
+
+.employees-card {
+    background-color: var(--main-white-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    /* flex-basis: calc((100% - 3 * 24px) / 4); */
+    text-align: center;
+}
+
+.employees-photo {
+    margin-bottom: 32px;
+}
+
+.section-item-title {
+    margin-bottom: 8px;
+}
+
+.text {
+    padding-bottom: 32px;
+}
+
+/* ===============/PORTFOLIO PAGE========================== */
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+    margin-top: 96px;
+    gap: 24px;
+}
+
+.filter-button {
+    padding: 12px 24px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-bottom: 120px;
+}
+
+.section-item-description {
+    padding-bottom: 32px;
+}
+
+.card-content-wrapper {
+    border: 1px solid var(--accent-color);
+    border-top: none;
+    padding-top: 32px;
+    padding-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+/* .employees-card:not(:nth-child(4n)) {
+    margin-right: 24px;
+} */
