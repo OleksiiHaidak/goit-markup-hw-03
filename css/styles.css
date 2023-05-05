@@ -197,6 +197,7 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--accent-color);
+    padding: 24px 0;
 }
 
 .page-header-container {
@@ -219,8 +220,6 @@ body {
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contact-menu {
